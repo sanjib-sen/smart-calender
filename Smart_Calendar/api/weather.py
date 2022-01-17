@@ -10,7 +10,6 @@ async def getweather():
     weather = await client.find("Dhaka")
 
     # returns the current day's forecast temperature (int)
-    print(weather.current.temperature)
 
     # get the weather forecast for a few days
     for forecast in weather.forecasts:

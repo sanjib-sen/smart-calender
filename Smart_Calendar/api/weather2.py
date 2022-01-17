@@ -40,15 +40,15 @@ def get_weather_data():
         # wind report
         wind_report = data['wind']
 
-        print(f"{CITY:-^35}")
-        print(f"City ID: {data['id']}")
-        print(f"Temperature: {temperature}")
-        print(f"Feel Like: {temp_feel_like}")
-        print(f"Humidity: {humidity}")
-        print(f"Pressure: {pressure}")
-        print(f"Weather Report: {weather_report[0]['description']}")
-        print(f"Wind Speed: {wind_report['speed']}")
-        print(f"Time Zone: {data['timezone']}")
+        # print(f"{CITY:-^35}")
+        # print(f"City ID: {data['id']}")
+        # print(f"Temperature: {temperature}")
+        # print(f"Feel Like: {temp_feel_like}")
+        # print(f"Humidity: {humidity}")
+        # print(f"Pressure: {pressure}")
+        # print(f"Weather Report: {weather_report[0]['description']}")
+        # print(f"Wind Speed: {wind_report['speed']}")
+        # print(f"Time Zone: {data['timezone']}")
 
         return temperature
     else:
